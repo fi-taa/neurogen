@@ -1,0 +1,96 @@
+/* Chat.css */
+.App {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:end;
+  padding-bottom: 30px;
+  height:calc(95vh) ;
+}
+
+.chat-box {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-height: 65vh;
+  overflow-y: auto;
+}
+
+.user-message {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+  border-radius: 15px 15px 0 15px;
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.bot-message {
+  background-color: #d5eaf2;
+  color: black;
+  align-self: flex-start;
+  border-radius: 15px 15px 15px 0;
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+/* Chat.css */
+/* ... Existing styles ... */
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-container textarea {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+
+.input-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  opacity: 0.8;
+}
+
+
+
+.chat-box::-webkit-scrollbar {
+  width: 0;
+  display: none; 
+}
+
+/* For Firefox */
+.chat-box {
+  scrollbar-width: none;
+}
