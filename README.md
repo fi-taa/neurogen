@@ -2,9 +2,8 @@
 
 ## Repository Structure
 
-- `/frontend`: Frontend code for the platform's user interfaces.
-- `/backend`: Backend code for handling user interactions, data storage, and AI integration.
-- `/ML`: Resources for Generative AI models, scripts for data analysis, and model training.
+- `/client`: Frontend code for the platform's user interfaces.
+- `/server`: Backend code for handling user interactions, data storage, and AI integration.
 
 ## Project Scope
 
