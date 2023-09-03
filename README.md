@@ -1,5 +1,19 @@
 # NeuroGenAI - Stroke Rehabilitation and Prevention Platform
 
+**to run follow this steps**
+- open terminal
+git clone https://github.com/fi-taa/neurogen.git
+
+cd ../server
+npm install
+npm start
+
+cd client 
+npm install
+npm start
+
+
+
 ## Repository Structure
 
 - `/client`: Frontend code for the platform's user interfaces.
